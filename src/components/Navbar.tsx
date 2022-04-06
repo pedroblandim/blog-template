@@ -19,7 +19,6 @@ export const Navbar = () => {
 
   const borderBottomColor = '#fff';
 
-  // how to make routes dynamic?
   return (
     <Container>
       <Box sx={{ flexGrow: 1 }}>

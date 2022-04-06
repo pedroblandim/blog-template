@@ -10,9 +10,10 @@ type Props = {
 export const Button = styled(ButtonMui)<Props>`
   margin-top: ${(props:Props) => props.marginTop || '0px'};
   
+  border: 2px solid transparent;
+  border-radius: 0;
+
   ${(props:Props) => props.borderBottom && css`
     border-bottom: 2px solid ${props.borderBottom};
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
   `}
 `;
